@@ -1,0 +1,83 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[landscape]{geometry}
+\usepackage{fullpage}
+\usepackage{breqn}
+\begin{document}
+\footnotesize
+\begin{dmath*}
+Omega = \frac{1-alppha}{1-alppha+alppha\, epsilon}
+\end{dmath*}
+\begin{dmath*}
+psi_n_ya = \frac{1+phi}{alppha+phi+\left(1-alppha\right)\, siggma}
+\end{dmath*}
+\begin{dmath*}
+lambda = \frac{\left(1-thetta\right)\, \left(1-thetta\, betta\right)}{thetta}\, Omega_{t}
+\end{dmath*}
+\begin{dmath*}
+kappa = lambda_{t}\, \left(siggma+\frac{alppha+phi}{1-alppha}\right)
+\end{dmath*}
+\begin{dmath}
+% Equation 1
+ppi_{t}=betta\, ppi_{t+1}+kappa_{t}\, \tilde{y}_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 2
+\tilde{y}_{t}=\tilde{y}_{t+1}-\frac{1}{siggma}\, \left(i_{t}-ppi_{t+1}-r\_nat_{t}\right)
+\end{dmath}
+\begin{dmath}
+% Equation 3
+i_{t}=ppi_{t}\, phi\_pi+\tilde{y}_{t}\, phi\_y+nu_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 4
+r\_nat_{t}=siggma\, psi\_n\_ya_{t}\, \left(a_{t+1}-a_{t}\right)
+\end{dmath}
+\begin{dmath}
+% Equation 5
+r\_real_{t}=i_{t}-ppi_{t+1}
+\end{dmath}
+\begin{dmath}
+% Equation 6
+y\_nat_{t}=psi\_n\_ya_{t}\, a_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 7
+\tilde{y}_{t}=y_{t}-y\_nat_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 8
+nu_{t}=rho\_nu\, nu_{t-1}+eps\_nu_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 9
+a_{t}=rho\_a\, a_{t-1}+eps\_a_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 10
+y_{t}=a_{t}+\left(1+alppha\right)\, n_{t}
+\end{dmath}
+\begin{dmath}
+% Equation 11
+i\_an_{t}=i_{t}\, 4
+\end{dmath}
+\begin{dmath}
+% Equation 12
+r\_nat\_an_{t}=r\_nat_{t}\, 4
+\end{dmath}
+\begin{dmath}
+% Equation 13
+r\_real\_an_{t}=r\_real_{t}\, 4
+\end{dmath}
+\begin{dmath}
+% Equation 14
+pi\_an_{t}=ppi_{t}\, 4
+\end{dmath}
+\begin{dmath}
+% Equation 15
+m\_cresc\_an_{t}=4\, \left(ppi_{t}+y_{t}-y_{t-1}-eta\, \left(i_{t}-i_{t-1}\right)\right)
+\end{dmath}
+\begin{dmath}
+% Equation 16
+m\_real_{t}=y_{t}-i_{t}\, eta
+\end{dmath}
+\end{document}

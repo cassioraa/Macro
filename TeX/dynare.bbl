@@ -1,0 +1,50 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Blanchard e Kahn 1980]{blanchard1980}
+\abntrefinfo{Blanchard e Kahn}{BLANCHARD; KAHN}{1980}
+{BLANCHARD, O.~J.; KAHN, C.~M. The solution of linear difference models under
+  rational expectations.
+\emph{Econometrica: Journal of the Econometric Society}, JSTOR, p. 1305--1311,
+  1980.}
+
+\bibitem[DeJong e Dave 2011]{dejong2011}
+\abntrefinfo{DeJong e Dave}{DEJONG; DAVE}{2011}
+{DEJONG, D.~N.; DAVE, C. \emph{Structural macroeconometrics}. [S.l.]: Princeton
+  University Press, 2011.}
+
+\bibitem[Gal{\'\i} 2008]{gali2008}
+\abntrefinfo{Gal{\'\i}}{GAL{\'I}}{2008}
+{GAL{\'I}, J. \emph{Monetary policy, inflation, and the business cycle: an
+  introduction to the new Keynesian framework and its applications}. [S.l.]:
+  Princeton University Press, 2008.}
+
+\bibitem[Klein 2000]{klein2000}
+\abntrefinfo{Klein}{KLEIN}{2000}
+{KLEIN, P. Using the generalized schur form to solve a multivariate linear
+  rational expectations model.
+\emph{Journal of Economic Dynamics and Control}, Elsevier, v.~24, n.~10, p.
+  1405--1423, 2000.}
+
+\bibitem[Pfeifer 2014]{pfeifer2014}
+\abntrefinfo{Pfeifer}{PFEIFER}{2014}
+{PFEIFER, J. A guide to specifying observation equations for the estimation of
+  dsge models.
+\emph{Research series}, p. 1--150, 2014.}
+
+\bibitem[Sims 2002]{sims2002}
+\abntrefinfo{Sims}{SIMS}{2002}
+{SIMS, C.~A. Solving linear rational expectations models.
+\emph{Computational economics}, Springer, v.~20, n.~1, p. 1--20, 2002.}
+
+\bibitem[Villemot et al. 2011]{villemot2011}
+\abntrefinfo{Villemot et al.}{VILLEMOT et al.}{2011}
+{VILLEMOT, S. et al. \emph{Solving rational expectations models at first order:
+  what Dynare does}.
+[S.l.], 2011.}
+
+\end{thebibliography}

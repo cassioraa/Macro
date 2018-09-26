@@ -1,0 +1,132 @@
+Starting Dynare (version 4.4.3).
+Starting preprocessing of the model file ...
+Found 17 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...done
+Preprocessing completed.
+Starting MATLAB/Octave computing.
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0
+Equation number 2 : 0
+Equation number 3 : 0
+Equation number 4 : 0
+Equation number 5 : 0
+Equation number 6 : 0
+Equation number 7 : 0
+Equation number 8 : 0
+Equation number 9 : 0
+Equation number 10 : 0
+Equation number 11 : 0
+Equation number 12 : 0
+Equation number 13 : 0
+Equation number 14 : 0
+Equation number 15 : 0
+Equation number 16 : 0
+Equation number 17 : 0
+
+
+
+STEADY-STATE RESULTS:
+
+ppi        		 0
+y_gap      		 0
+i          		 0
+r_nat      		 0
+r_real     		 0
+y_nat      		 0
+nu         		 0
+a          		 0
+y          		 0
+n          		 0
+pi_an      		 0
+r_real_an  		 0
+r_nat_an   		 0
+i_an       		 0
+m_cresc_an 		 0
+m_real     		 0
+n_an       		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+       4.747e-17        4.747e-17                0
+             0.5              0.5                0
+             0.9              0.9                0
+           1.153            1.132           0.2197
+           1.153            1.132          -0.2197
+       4.319e+17       -4.319e+17                0
+
+
+There are 3 eigenvalue(s) larger than 1 in modulus 
+for 3 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         17
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           3
+  Number of static variables:  11
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+
+Variables    eps_nu     eps_a  
+eps_nu       0.062500  0.000000
+eps_a        0.000000  1.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                              y_gap           pi_an           i_an            r_real_an       m_cresc_an      nu        
+i(-1)                              0               0               0               0       16.000000               0
+nu(-1)                     -0.569817       -0.575458        0.851904        1.139633       -6.262341        0.500000
+y(-1)                              0               0               0               0       -4.000000               0
+a(-1)                      -0.097105       -0.454343       -0.730067       -0.321158        5.677506               0
+eps_nu                     -1.139633       -1.150917        1.703808        2.279267      -12.524683        1.000000
+eps_a                      -0.107894       -0.504826       -0.811185       -0.356842        6.308340               0
+
+
+MOMENTS OF SIMULATED VARIABLES
+
+VARIABLE        MEAN    STD. DEV.   VARIANCE   SKEWNESS   KURTOSIS 
+y_gap          0.133998   0.360520   0.129975   0.266931   0.156705
+pi_an          0.477499   0.949551   0.901647  -0.019875  -0.369486
+i_an           0.640267   1.683440   2.833971   0.119013  -0.583701
+r_real_an      0.226973   1.026581   1.053869   0.269608  -0.615953
+m_cresc_an     0.465975   7.580050  57.457155  -0.030647  -0.103413
+nu            -0.035745   0.294248   0.086582  -0.011895  -0.143654
+
+
+CORRELATION OF SIMULATED VARIABLES
+
+VARIABLE        y_gap       pi_an       i_an      r_real_an  m_cresc_an      nu     
+y_gap             1.0000      0.6972      0.1145     -0.2826      0.1578     -0.8330
+pi_an             0.6972      1.0000      0.7921      0.4907     -0.0377     -0.1840
+i_an              0.1145      0.7921      1.0000      0.9206     -0.1866      0.4542
+r_real_an        -0.2826      0.4907      0.9206      1.0000     -0.2423      0.7662
+m_cresc_an        0.1578     -0.0377     -0.1866     -0.2423      1.0000     -0.2455
+nu               -0.8330     -0.1840      0.4542      0.7662     -0.2455      1.0000
+
+
+AUTOCORRELATION OF SIMULATED VARIABLES
+
+VARIABLE        1       2       3       4       5   
+y_gap         0.5322  0.2124  0.0539 -0.0669 -0.1274
+pi_an         0.7963  0.6075  0.4774  0.3555  0.2278
+i_an          0.8233  0.6734  0.5793  0.4881  0.4006
+r_real_an     0.7149  0.5163  0.4187  0.3345  0.2900
+m_cresc_an   -0.0447 -0.1305  0.0097 -0.0206 -0.1090
+nu            0.5155  0.2013  0.0616 -0.0403 -0.0568
+Total computing time : 0h00m09s

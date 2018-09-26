@@ -1,0 +1,16 @@
+\ft{Estimação}
+
+\begin{itemize}
+
+\item nobs = INTEIRO: número de obs. a ser utilizada na estimação (default=todas).
+
+\item mh\_replic = INTEIRO: de replicações do algoritmo Metropolis-Hastings (default=20000).
+
+
+\item mh\_nblocks = INTEIRO: de cadeias paralelas (default=2).
+
+
+\item mh\_drop = DOUBLE: fração inicial da amostra que deve ser descartada antes do cálculo das estatísticas a posteriori(default=0.5).
+
+
+\end{itemize}
